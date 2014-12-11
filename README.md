@@ -1,14 +1,20 @@
 # NAME
 
-WWW::StationJp::API - It's new $module
+WWW::StationJp::API - It's a StationJP Module.
 
 # SYNOPSIS
 
     use WWW::StationJp::API;
 
+    my $station = new WWW::StationJp::API();
+
+     my $line = $station->line({linecode => 11302});
+    
+    print $line->{line_name};
+
 # DESCRIPTION
 
-WWW::StationJp::API is ...
+WWW::StationJp::API is a StationJP Module.
 
 # LICENSE
 

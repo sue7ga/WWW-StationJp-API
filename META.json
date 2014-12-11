@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "It's a StationJP Module.",
    "author" : [
       "sue7ga <sue77ga@gmail.com>"
    ],
@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sue7ga/WWW-StationJp-API/issues"
+      },
+      "homepage" : "https://github.com/sue7ga/WWW-StationJp-API",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sue7ga/WWW-StationJp-API.git",
+         "web" : "https://github.com/sue7ga/WWW-StationJp-API"
+      }
+   },
    "version" : "0.01"
 }
